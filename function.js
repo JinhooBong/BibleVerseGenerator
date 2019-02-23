@@ -36,15 +36,14 @@ var verses = [
     'Whatever your hand finds to do, do it with all your might.',
     'Love is patient and kind, love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things.'
 ]
-
 var book = [
     'Isaiah 40:31 ESV', '1 Thessalonians 5:11 ESV', 'Isaiah 43:2', 'Joshua 1:9 ESV', 'Deuteronomy 31:8', 'Matthew 11:28 ESV', '2 Corinthians 1:3-4 ESV', '1 Corinthians 15:58 ESV', 'Psalm 121:1-2 ESV', 'Hebrews 10:24-25 ESV', 'Psalm 32:8 ESV', 'Psalm 31:24 ESV', 'John 16:33 ESV', '1 Corinthians 16:13 ESV',  'Isaiah 43:4 ESV', 'Proverbs 14:23 ESV', 'Psalm 23:4 ESV', 'John 14:27 ESV', '2 Corinthians 4:17 ESV', 'Romans 8:31 ESV', 'Romans 15:5 ESV', 'Psalm 90:17 ESV', 'Romans 15:2 ESV', '2 Corinthians 8:12 ESV', 'Luke 12:6-7 ESV', '2 Corinthians 4:16 ESV', 'Isaiah 51:12 ESV', 'Revelation 7:16-17 ESV', '2 Corinthians 1:5 ESV', 'Colossians 2:2 ESV', 'Romans 1:11-12 ESV', 'Colossians 3:23 ESV', 'Ecclesiastes 9:10 ESV', '1 Corinthians 13:4-7'
 ]
 
+
+
 var today = new Date();
 var currDate = (today.getMonth()+1) + '/' + today.getDate() + '/' + today.getFullYear();
-
-var currTime;
 
 function updateTime() {
     var currentTime = new Date();

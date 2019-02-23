@@ -1,0 +1,45 @@
+body {
+    color: white;
+    background-color: black;
+    background-image: url("https://source.unsplash.com/collection/540518/1600x900");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: rgba(255,255,255,0.3);
+}
+
+
+.top-padding {
+    padding-top: 15%;
+}
+
+.current-date {
+    text-align: right;
+}
+
+#bookDisplay {
+    float: right;
+}
+
+#time, #date, #quoteDisplay, #bookDisplay {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#time {
+    font-size: 4.5em;
+}
+
+#date {
+    font-size: 3.5em;
+}
+
+#quoteDisplay {
+    font-size: 2em;
+}
+
+#bookDisplay {
+    font-size: 1.5em;
+}
